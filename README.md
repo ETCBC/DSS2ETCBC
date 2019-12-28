@@ -20,6 +20,9 @@ The features that we start with are:
 - state
 - lexeme
 - part of speech
+- verbal stem
+- verbal tense
+- language
 
 #### Phrase level
 - phrase boundaries

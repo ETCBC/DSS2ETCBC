@@ -40,6 +40,23 @@ The conversion of these features is a long term process. We want to convert all 
 Good question. In the conversion of features we distinguish between biblical (defined as books included in the bhsa dataset) and non-biblical texts. This distinction is made, because the encoding in the BHSA can help the conversion of the biblical DSS in a direct way. 
 There are roughly two approaches for encoding the DSS in the ETCBC way: For the biblical text sequence alignment is used, and for the other texts we use machine learning, sequence 2 sequence (seq2seq) models in particular. Of course, this is only the first step. It is very well possible that the encoding will take place in a number of steps.
 
+## What is the order for the conversion of the DSS to ETCBC conventions?
+
+A new app will be made, because the differences in conventions if word boundaries between the dss and etcbc may lead to confusion.
+First do the biblical scrolls, there is support from the BHSA for those texts.
+
+
+1. Convert feature language, important to know what the language of a word is.
+2. What are the words: some cases differ from etcbc conventions: in Aramaic ‘>’ at the end of a word (emphatic state) is a distinct word, various place names consisting of two words have a distinct lexeme in the BHSA, and are one word in the dss data.
+3. Convert ETCBC lexemes.
+4. Convert POS.
+5. Convert verbal stem and verbal tense.
+6. Convert gender, number, person
+7. Add clause boundaries
+8. Add phrase boundaries
+9. Phrase type and function
+
+
 
 
 

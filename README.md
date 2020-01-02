@@ -42,8 +42,8 @@ There are roughly two approaches for encoding the DSS in the ETCBC way: For the 
 
 ## What is the order for the conversion of the DSS to ETCBC conventions?
 
-A new app will be made, because the differences in conventions if word boundaries between the dss and etcbc may lead to confusion.
-First do the biblical scrolls, there is support from the BHSA for those texts.
+A new app will be made, because the differences in conventions if word boundaries between the dss and etcbc may lead to confusion. The name of the app will be DSSA, analogous to BHSA.
+First we will convert the biblical scrolls, there is support from the BHSA for those texts.
 
 
 1. Convert feature language, important to know what the language of a word is.
